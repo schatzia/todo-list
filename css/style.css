@@ -34,6 +34,9 @@ label{
   clear: both;  
   margin-left:20px;
 }
+input[type=text], textarea{
+	width: 450px;
+}
 .container{
   width: 50%;
   background-color: #CAD6D4;
@@ -106,4 +109,11 @@ label{
 .removeBtn:hover{
 	color: #566e7a;
 	cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+
+	input[type=text], textarea{
+	width: 200px;
+}
 }
