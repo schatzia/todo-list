@@ -1,0 +1,108 @@
+body{
+	background-color: #e1e1e1;
+	font-family: "Open Sans", Oswald, sans-serif;
+	font-size: 1.1em;
+	box-sizing: border-box;
+}
+header{
+	margin-left:10px;
+	color: #566e7a;
+}
+footer{
+	height: 50px;
+	text-align: center;
+}
+footer p{
+	display: inline-block;
+	position: relative;	
+	margin-top: 20px auto;
+}
+h1{
+	font-size: 1.4em;
+	text-align: center;
+}
+hr {
+	width: 100%;
+	height: 3px;
+	border:0;
+	background-color: #4B5154;
+	margin-top: 165px;
+}
+label{
+  color: #54504B;
+  float: left;
+  clear: both;  
+  margin-left:20px;
+}
+.container{
+  width: 50%;
+  background-color: #CAD6D4;
+  margin: auto;
+  min-height: 250px;
+}
+.formContainer{
+   width: 70%; 
+   margin: auto;
+   padding: 10px 20px;
+}
+
+#task-list{
+  margin: auto;
+  margin-top: 60px;
+  width: 70%;
+  //border: 1px solid black;
+}
+.task-list-item{
+	width: 100%;
+	margin: auto;
+	margin-bottom: 20px;
+	border: 1px #FFAA4C solid;
+	border-radius: 3px;	
+}
+.titleCell {
+  border: 0;
+  background-color: #FFAA4C;
+  color: #fff;  
+  padding: 5px;
+  border-radius: 3px;
+  width: 100%;
+
+}
+.contentCell{
+  color: #566e7a;
+  width: 100%;
+  padding: 5px;
+}
+#todoTitle, #todoContent, #addTaskBtn {
+  border: 1px #566e7a solid;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  float: right;
+  clear: right;
+}
+#addTaskBtn{
+  float: right;
+  width: 100px;
+  background-color: #4B5154;
+  color: #D4E6ED;    
+  box-sizing: border-box;  
+}
+#todoTitle, #todoContent, #addTaskBtn:focus{
+	outline: 0;
+}
+#addTaskBtn, #removeBtn:hover{
+	cursor: pointer;
+}
+.removeBtn{
+	float: right;
+	margin-right: 5px;
+	text-decoration: underline;
+	padding: 5px;
+	background: 0;
+	outline: 0;
+	border: 0;
+}
+.removeBtn:hover{
+	color: #566e7a;
+	cursor: pointer;
+}
